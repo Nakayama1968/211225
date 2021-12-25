@@ -1,0 +1,131 @@
+.base{
+    width: 80%;
+    margin: auto;
+    background-color: hsl(315, 0%, 98%);
+}
+
+.title{
+    font-size: 30px;
+    margin: 2% 0 1% 0;
+    padding:  0%;
+    font-weight: bold;
+    letter-spacing: 0.8rem;
+}
+
+.massage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    align-content: space-between;
+}
+
+input[name="time0"]{
+    width: 15%;
+    position: relative;
+    padding: 17px 0px 15px 13px;
+    border-radius: 0px;
+    border: none;
+    font-size: 12px;
+    background: hsl(315, 40%, 80%);
+    box-sizing:border-box;
+    margin:0 !important;
+    line-height:1.5;
+
+}
+
+::placeholder {
+    color: hsl(0, 0%, 0%);
+ }
+
+input[name="name0"]{
+    width: 15%;
+    position: relative;
+    padding: 17px 13px 15px 18px;
+    border-radius: 0px;
+    border: none;
+    background: hsl(315, 40%, 70%);
+    box-sizing:border-box;
+    margin:0 !important;
+    line-height:1.5;
+}
+
+input[name="text0"]{
+    width: 40%;
+    position: relative;
+    padding: 17px 13px 15px 18px;
+    border-radius: 0px;
+    border: none;
+    background: hsl(315, 40%, 60%);
+    box-sizing:border-box;
+    margin:0 !important;
+    line-height:1.5;
+    color: white;
+}
+
+
+
+input[name="time"]{
+    width: 15%;
+    position: relative;
+    padding: 17px 13px 15px 18px;
+    border-radius: 0px;
+    border: none;
+    background: hsl(239, 40%, 80%);
+    box-sizing:border-box;
+    margin:0 !important;
+    line-height:1.5;
+
+}
+
+input[name="name"]{
+    width: 15%;
+    position: relative;
+    padding: 17px 13px 15px 18px;
+    border-radius: 0px;
+    border: none;
+    background: hsl(239, 40%, 70%);
+    box-sizing:border-box;
+    margin:0 !important;
+    line-height:1.5;
+
+}
+
+input[name="text"]{
+    width: 40%;
+    position: relative;
+    padding: 17px 13px 15px 18px;
+    border-radius: 0px;
+    border: none;
+    background: hsl(239, 40%, 60%);
+    box-sizing:border-box;
+    margin:0 !important;
+    line-height:1.5;
+    color: white;
+
+}
+
+.button{
+    width: 5.8%;
+  margin: 0.5% 0% 2% 65%;
+  padding: 2px;
+  border-radius: 2px;
+  border:none;
+  background-color: hsl(239, 29%, 54%);
+  font-size: 16px;
+  text-align: center;
+  line-height:1.5;
+  color: rgb(255, 255, 255);
+}
+
+.delete{
+    width: 5%;
+  margin: 0.5% 0% 2% 65%;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  background-color: hsl(315, 48%, 53%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
